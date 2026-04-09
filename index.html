@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Urbano ITEC Portfolio_BSCS-1B</title>
+        <style>
+            * {
+               margin: 0;
+               padding: 0;
+              box-sizing: border-box;
+            }
+            body{ 
+                display: flex;
+                flex-direction: column;   
+                min-height: 100vh;
+                line-height: 1.6;
+                padding:  clamp(3rem, 7vw, 5rem);
+                background-image: url("gradient.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: scroll;
+                background-color: rgb(65, 11, 214); 
+                box-shadow: 40px 40px 35px 5px rgba(0,0,0,0.75);   
+            }
+            #container {
+                
+                max-width: 90%;
+                margin: auto;
+                padding: 0;
+                background-color: rgba(16,2,97,0.5);
+                border-radius: 1.5em;
+                overflow: hidden;
+            }
+             header, main, footer {  
+                padding: 1em;
+            } 
+             p, h1, h2, h3 {
+                overflow-wrap: break-word;
+            }
+            header{ 
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                padding: 1rem 2rem;
+                background-color: rgb(118, 94, 255); 
+                box-shadow: 40px 40px 35px rgba(0,0,0,0.5);
+                border-radius: 30px 30px 0px 0px;
+                
+            }
+
+            main{ 
+                max-width: 90vw;
+                margin: auto;
+                flex: 1;  
+                background-color: rgba(16, 2, 97, 0.5);
+                padding: clamp(1rem, 3vw, 2rem);
+                box-shadow: 40px 40px 35px 5px rgba(0,0,0,0.75);
+                text-align: justify;
+                
+            }
+            
+            nav{ 
+               display: flex;
+               gap: 0.625em;
+               font-size: 0.75rem;
+            }
+            nav a:link {
+                color: rgb(240, 240, 7);
+            }
+
+            nav a:visited {
+                color: aquamarine;
+            }
+           .nav-btn{
+                display: flex;
+                display: inline-block;
+                background-color: rgb(81, 50, 235); 
+                color: rgb(237, 253, 4); 
+                padding: 0.5em 1em 0.5em 1em;
+                border-radius: 1.5em;
+                font-family: "Times New Roman"; 
+                box-shadow: 0.3em 0.3em 0.3em rgba(0,0,0,0.5);
+                transition: background-color 0.3s ease;
+               
+            }
+            .nav-btn:hover {
+                background-color: rgb(60, 30, 200);
+           }
+
+            h1{ 
+                font-size: clamp(1.8rem, 4vw, 2.5rem);
+                text-align: center; 
+                color: rgb(237, 253, 4); 
+                font-family: "Times New Roman";}
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .Info1{
+                font-family: "Times New Roman";
+                color: whitesmoke;  
+            }
+            .Info1 .position{ 
+                border-radius: 50%; 
+                display: block; 
+                margin: auto; 
+                box-shadow: 20px 20px 15px 0px rgba(0,0,0,0.75); 
+            }
+            
+            #info2{
+                text-align: justify;
+                color:whitesmoke;   
+            }
+            #info2 p::first-letter{ 
+                color: rgb(237, 253, 4); 
+                font-size: clamp(1.2rem, 3vw, 1.8rem);
+            }  
+            #info2 a:link{
+                color: rgb(240, 240, 7);
+            }
+            #info2 a:visited{
+                color: aquamarine;
+            }
+            #info2 p{
+                text-indent: 10%;
+            }
+            #info2 h2{
+                text-align: center;
+            }
+            #info2 a:hover {
+                 text-decoration: underline;
+                 opacity: 0.8;
+            }
+
+            footer{ 
+                gap: 0.5rem;
+                display: flex;
+                flex-direction: column; 
+                align-items: center;
+                justify-content: center;
+                padding: 2rem 0;
+                background-color: rgb(118, 94, 255); 
+                box-shadow: 40px 40px 35px rgba(0,0,0,0.5);
+                border-radius: 0px 0px 30px 30px;
+                text-align: center;
+                font-family: "Times New Roman";
+                color: whitesmoke;
+            }
+            footer h3{
+                color: rgb(237, 253, 4);
+                padding-bottom: 1rem;
+         }
+            
+        </style>
+
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <nav>
+                    <a href="activity.html" class="nav-btn">Activity</a>
+                    <a href="quiz.html" class="nav-btn">Quiz</a>
+                    <a href="exam.html" class="nav-btn">Exam</a>
+                </nav>
+            </header>
+            <main class="Info1">
+                <h1>My Portfolio</h1>
+                <img src = "kryzel.jpg" alt = "My picture" width = "100" height = "100" class="position"> 
+                <br>
+                <br>
+                <br>
+                <p> <b> Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </b>&nbsp;&nbsp;    Kryzel Angela A. Urbano </p>
+                <p> <b> Student No. : </b>&nbsp;&nbsp;    251100019 </p>
+                <p> <b> Course &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </b>&nbsp;&nbsp;    Bachelor of Science in Computer Science </p>
+                <p> <b> Section &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </b>&nbsp;&nbsp;  1B </p>
+                <br>
+                <hr>
+                <hr>
+               <div id="info2"> 
+                   <h2> <b> A Bit of Information About Me </b> </h2>
+                   <p>  Hello! I am Kryzel and I enjoy watching C-dramas, especially the dramas where <a href="bai_lu.html"> Bai Lu </a> is the lead, because  
+                        she is my favorite actress. I also like to watch anime, and I love reading manhwas and mangas. And I also love to act. And most of all,
+                        I am the first child in my family, a cat lover, and an introvert that is an extrovert if needed to be.
+                    </p>
+                </div>
+            </main>
+
+            <footer>
+                <h3>© 2026 Kryzel Angela A. Urbano. All rights reserved.</h3>
+                <p> <b>✉ Email    : </b> kryzelange.urbano@cvsu.edu.ph <br>
+                <b>🌐 Facebook: </b> Kryzel Angela Alabata Urbano </p>
+            </footer>
+
+        </div>  
+    </body>
+</html>
